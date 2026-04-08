@@ -1,5 +1,5 @@
 import { IAnimal } from "./IAnimal";
-import renderAnimalInfo from "./renderAnimalInfo";
+import renderAnimalInfo from "./renderAnimalInfo.js";
 
 //Titta i index.html och hitta den UL där listan på djur ska skrivas ut.
 //Rendera ut en lista över djurens namn på skärmen
