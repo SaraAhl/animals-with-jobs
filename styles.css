@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    font-size: 1rem;
+}
+
+/* VÄNSTER LISTA */
+.list-of-animals {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1.1rem;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
+
+/*HÖGER INFO */
+.animal-info {
+    width: 70%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+}
+
+/*BILD */
+.animal-info img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+/*TEXT */
+.animal-info h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+    
+}
+
+.animal-info p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.animal-info h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+/*SKILLS */
+.animal-info li {
+    margin-left: 20px;
+}
